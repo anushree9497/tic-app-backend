@@ -38,7 +38,6 @@ public class SecurityConfig {
                         )).authorizeRequests()
                 .anyRequest().authenticated()
                 .and().build();
-
     }
 }
 
